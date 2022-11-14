@@ -1,0 +1,9 @@
+-Create new directories or folders by running mkdir
+-Go into directories using cd
+remove single files with rm command, directories rm -rf
+-make files usng touch
+-mv moves files and directories eg: mv music/giants.txt football/
+* = wild card, moves multiiple files eg: *.txt
+mv  can also rename files eg: mv football/eagles.txt football/anythingelse.txt
+copy a file = cp (file you want to copy) (where you want it  copied to) cp -R will copy directtory
+./ means the current  directory
