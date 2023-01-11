@@ -17,7 +17,8 @@ ul {
 
 }
 body {
-  background-color: rgb(177, 177, 177);
+  /* background-color: rgb(177, 177, 177); */
+  background-color: #87ceeb;
   position: relative;
   z-index: -1;
 }
@@ -28,15 +29,20 @@ body {
   height: 25vh;
   width:auto;
   margin: 12px 12px 12px 12px;
+  transition: box-shadow .3s;
+}
+.imgs:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.88)
 }
 .details {
   position: relative;
   z-index: 2;
   font-size: 2.3vw;
   margin: 0 auto;
+  text-align: center;
 }
 .popup {
-  height: 30vh;
+  height: 30%;
   width: 40%;
   background-color: white;
   position:fixed;
@@ -66,7 +72,6 @@ body {
   height: 100%;
   width:auto;
   border-width: 2px;
-  /* position: relative; */
   z-index: 2;
 }
 .close {
@@ -78,4 +83,24 @@ body {
   z-index: 3;
   margin-top: -32%;
   margin-left: 96%;
+}
+@media (max-width: 850px) and (min-height:500px) {
+  body {
+    background-color: #87ceeb;
+  }
+  .popup {
+    height: 45%;
+    width: 30%;
+    flex-direction: column;
+    margin-left: 35%;
+  }
+  .imgs2 {
+    height: auto;
+    width:100%;
+  }
+  .details {
+    font-size: 2.5vh;
+    text-align: center;
+    margin-top: 10px;
+}
 }
