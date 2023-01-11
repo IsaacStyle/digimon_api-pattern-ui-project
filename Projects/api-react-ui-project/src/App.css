@@ -29,13 +29,11 @@ ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
   margin-left: -5vh;
 
 }
 body {
-  /* background-color: rgb(177, 177, 177); */
   background-color: #87ceeb;
   position: relative;
   z-index: -1;

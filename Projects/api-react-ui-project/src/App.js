@@ -32,8 +32,8 @@ useEffect(() => {
       } />      
       {digimons.map((digi,idx) => {
         return(
-        <Route key={idx} path={`/${digi.name}`} element={
-          <>
+          <Route key={idx} path={`/${digi.name}`} element={
+            <>
             <NAV />
             <div className='popup'>
               <img src={digi.img} alt={digi.name} className='imgs2'></img>
@@ -43,8 +43,8 @@ useEffect(() => {
             <ul>
               <Digimon digimons={digimons}/>          
             </ul>
-          </>
-      } />)
+            </>
+        } />)
       })}
     </Routes>
     </>
