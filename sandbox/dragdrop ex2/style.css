@@ -1,0 +1,129 @@
+.example-parent {
+    border: 2px solid #DFA612;
+    color: black;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  
+  .example-origin {
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  
+  .example-draggable {
+    background-color: #4AAE9B;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .example-dropzone {
+    background-color: #6DB65B;
+    flex-basis: 100%;
+    flex-grow: 1;
+    padding: 10px;
+  }
+  #card {
+    height: 30vh;
+    width: 12vw;
+    margin: 2px;
+    background-color: rgb(255, 184, 96);
+    border-radius: 15px;
+    border: solid;
+}
+.spcost {
+  position: fixed;
+  font-size: 35px;
+  margin-right: -5px;
+  margin-top: -10px;
+  border:solid black;
+  border-radius: 80px;
+  background-color: rgb(1, 211, 211);
+  font-weight: 800;
+  color: white;
+  border-width: 3px;
+  z-index: 1;
+}
+.cardimgbox {
+  float: left;
+  height: 140px;
+  width: 175px;
+  border: solid;
+  margin-top: -20px;
+  margin-left: 12px;
+  z-index: 1;
+  background-image: url(https://i.kym-cdn.com/photos/images/original/002/467/715/082.jpg);
+  background-size: cover;
+  background-position: 0 auto;
+  background-position-x: -20px;
+
+  
+}
+.atk {
+  position: fixed;
+  margin-top: 225px;
+  margin-left: -8px;
+  font-size: 35px;
+  border:solid black;
+  border-radius: 80px;
+  background-color: rgb(211, 1, 1);
+  font-weight: 800;
+  color: white;
+  border-width: 3px;
+  z-index: 1;
+  width: 30px;
+  text-align: center;
+}
+.def {
+  float: right;
+  font-size: 35px;
+  margin-right: -5px;
+  margin-top: 65px;
+  border:solid black;
+  border-radius: 80px;
+  background-color: rgb(1, 211, 211);
+  font-weight: 800;
+  color: white;
+  border-width: 3px;
+  z-index: 1;
+  width: 30px;
+  text-align: center;
+}
+.ability {
+  float: left;
+  margin-left: 20px;
+  margin-top: 4px;
+}
+
+/* test */
+.example-parent {
+  border: 2px solid #DFA612;
+  color: black;
+  display: flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.example-origin {
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.example-draggable {
+  background-color: #4AAE9B;
+  font-weight: normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.example-dropzone {
+  background-color: #6DB65B;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
