@@ -21,7 +21,6 @@ useEffect(() => {
 
   return (
     <>
-
     <Routes>
       <Route path={`/`} element={
           <>
@@ -38,7 +37,8 @@ useEffect(() => {
             <NAV />
             <div className='popup'>
               <img src={digi.img} alt={digi.name} className='imgs2'></img>
-              <h2 className='details'>Name: {digi.name} <br></br><br></br>Level: {digi.level}</h2>            
+              <h2 className='details'>Name: {digi.name} <br></br><br></br>Level: {digi.level}</h2>
+              <Link to={`/`} className='close'>x</Link>            
             </div>
             <ul>
               <Digimon digimons={digimons}/>          
