@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/serious-rounded');
+
 .top {
   background-color: rgb(78, 78, 78);
   padding: 6px 6px 6px 50px;
@@ -35,6 +37,7 @@ ul {
 }
 body {
   background-color: #87ceeb;
+  /* background-image: radial-gradient(#004878, #87ceeb); */
   position: relative;
   z-index: -1;
 }
@@ -53,9 +56,11 @@ body {
 .details {
   position: relative;
   z-index: 2;
-  font-size: 2.3vw;
+  font-size: 1.8vw;
   margin: 0 auto;
   text-align: center;
+  font-family: 'seriousr2b', sans-serif;
+  text-justify: auto;
 }
 .popup {
   height: 30%;
@@ -66,10 +71,13 @@ body {
   margin-left: 25%;
   margin-top: 15%;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
   border: solid black;
   border-width: 2px;
   z-index: 2;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-justify: auto;
   animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -83,12 +91,13 @@ body {
       }
   }
 .imgs2 {
-  border-radius: 20px;
+  border-radius: 10px;
   border: solid black;
   height: 100%;
   width:auto;
   border-width: 2px;
   z-index: 2;
+  margin: 0;
 }
 .close {
   color: red;
@@ -100,22 +109,27 @@ body {
   margin-top: -32%;
   margin-left: 96%;
 }
+#HerculesKabuterimon {
+  font-size: 1.3vw;
+}
+
 @media (max-width: 850px) and (min-height:500px) {
   body {
     background-color: #87ceeb;
   }
   .popup {
-    height: 45%;
-    width: 30%;
+    height: 40%;
+    width: 40%;
     flex-direction: column;
-    margin-left: 35%;
+    margin-left: 30%;
   }
   .imgs2 {
     height: auto;
     width:100%;
+    margin-top: -5px;
   }
   .details {
-    font-size: 2.5vh;
+    font-size: 1.75vh;
     text-align: center;
     margin-top: 10px;
 }
@@ -124,4 +138,18 @@ body {
     margin-top: 2%;
     margin-left: 90%;
   }
+  .toplogo {
+    height: 0%;
+    width: 0%;
+  }
+  .imgs {
+    height: 21.5vh;
+    width:auto;
+  }
+  #HerculesKabuterimon {
+    font-size: 1.55vw;
+  }
+}
+@media (max-width: 850px) and (min-height:500px) {
+
 }
